@@ -1,0 +1,30 @@
+sfGuardObjectAuthorInfo:
+  actAs: [Timestampable]
+  columns:
+    sf_guard_user_id:
+      type: integer(4)
+      notnull: true
+      primary: true
+    object_type:
+      type:    string(255)
+      notnull: true
+    object_primary:
+      type:    string(255)
+      notnull: true
+    event_type:
+      type:    string(255)
+      notnull: true
+    remote_addr:
+      type: string(255)
+    http_referer:
+      type: string(255)
+    http_user_agent:
+      type: string(255)
+  relations:
+    User:
+      class:       sfGuardUser
+      onDelete:    CASCADE
+      local:       sf_guard_user_id
+      foreign:     id
+      foreignType: one
+      foreignAlias: ObjectAuthorInfo
