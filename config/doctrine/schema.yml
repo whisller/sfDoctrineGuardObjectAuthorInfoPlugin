@@ -2,9 +2,8 @@ sfGuardObjectAuthorInfo:
   actAs: [Timestampable]
   columns:
     sf_guard_user_id:
-      type: integer(4)
+      type:    integer
       notnull: true
-      primary: true
     object_type:
       type:    string(255)
       notnull: true
@@ -22,9 +21,8 @@ sfGuardObjectAuthorInfo:
       type: string(255)
   relations:
     User:
-      class:       sfGuardUser
-      onDelete:    CASCADE
-      local:       sf_guard_user_id
-      foreign:     id
-      foreignType: one
-      foreignAlias: ObjectAuthorInfo
+      class:        sfGuardUser
+      onDelete:     CASCADE
+      local:        sf_guard_user_id
+      foreign:      id
+      foreignType:  one

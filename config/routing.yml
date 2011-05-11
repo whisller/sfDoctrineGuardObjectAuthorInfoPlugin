@@ -1,0 +1,8 @@
+sf_guard_object_author_info:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                sfGuardObjectAuthorInfo
+    module:               sfGuardObjectAuthorInfoBackend
+    prefix_path:          /sfGuardObjectAuthorInfoBackend
+    column:               id
+    with_wildcard_routes: true
