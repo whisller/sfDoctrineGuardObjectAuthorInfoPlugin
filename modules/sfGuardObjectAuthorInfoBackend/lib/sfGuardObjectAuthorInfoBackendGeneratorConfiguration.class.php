@@ -3,10 +3,9 @@
 /**
  * sfGuardObjectAuthorInfoBackend module configuration.
  *
- * @package    memgenerator.pl
- * @subpackage sfGuardObjectAuthorInfoBackend
- * @author     Your name here
- * @version    SVN: $Id: configuration.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ * @package    sfDoctrineGuardObjectAuthorInfoPlugin
+ * @subpackage modules.sfGuardObjectAuthorInfoBackend.lib
+ * @author     Daniel Ancuta <whisller@gmail.com>
  */
 class sfGuardObjectAuthorInfoBackendGeneratorConfiguration extends BaseSfGuardObjectAuthorInfoBackendGeneratorConfiguration
 {

@@ -1,3 +1,6 @@
+##############################
+# Routing for backend module #
+##############################
 sf_guard_object_author_info:
   class: sfDoctrineRouteCollection
   options:

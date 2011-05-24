@@ -3,10 +3,9 @@
 /**
  * PluginsfGuardObjectAuthorInfo form.
  *
- * @package    ##PROJECT_NAME##
- * @subpackage form
- * @author     ##AUTHOR_NAME##
- * @version    SVN: $Id: sfDoctrineFormPluginTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ * @package    sfDoctrineGuardObjectAuthorInfoPlugin
+ * @subpackage lib.form
+ * @author     Daniel Ancuta <whisller@gmail.com>
  */
 abstract class PluginsfGuardObjectAuthorInfoForm extends BasesfGuardObjectAuthorInfoForm
 {
